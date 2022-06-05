@@ -1,0 +1,52 @@
+.page {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e5e5e5;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+/* main styles  */
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+
+  width: 1200px;
+  height: 1319px;
+  margin: 0 auto;
+}
+
+.semi-main {
+  background-color: #fff;
+}
+/* user styles */
+.user {
+  margin-top: 102px;
+  margin-left: 88px;
+}
+
+/* project styles */
+.project {
+}
+
+.project-title {
+}
+
+/* work styles */
+.work {
+}
+
+/* education  */
+
+.education {
+}
+
+/* side-bar styles  */
+
+.sidebar {
+  background-color: #1e2939;
+}

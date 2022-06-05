@@ -4,21 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>My resume</title>
 </head>
 
-<body>
+<body class="page">
     <!-- main -->
-    <div>
+    <div class="main">
         <!-- main block -->
-        <div>
+        <div class="semi-main">
             <!-- user -->
-            <div>
-                <h2>Front-End Developer</h2>
+            <div class="user">
+                <h2 class="user-semi-title">Front-End Developer</h2>
 
-                <h1>Anton Chornyi</h1>
+                <h1 class="user-title">Anton Chornyi</h1>
 
-                <p>
+                <p class="user-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
                     dolore magna
@@ -27,8 +31,8 @@
                 </p>
             </div>
             <!-- projects -->
-            <div>
-                <h2>Projects</h2>
+            <div class="project">
+                <h2 class="project-title">Projects</h2>
                 <ol>
                     <li><a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
                         .......
@@ -45,7 +49,7 @@
                 </ol>
             </div>
             <!-- work -->
-            <div>
+            <div class="work">
                 <h2>Work Experience</h2>
                 <!-- company-1 -->
                 <div>
@@ -82,19 +86,16 @@
                     </ul>
                 </div>
             </div>
-            <div>
+            <!-- Education  -->
+            <div class="education">
                 <h2>Education</h2>
-                <ul>
-                    <li>
-                        <h3>National University of Radioelectronics</h3>
-                        <p>Management</p>
-                        <p>September 2009 - June 2014 | Country</p>
-                    </li>
-                </ul>
+                <p>National University of Radioelectronics</p>
+                <h3>Management</h3>
+                <p>September 2009 - June 2014 | Country</p>
             </div>
         </div>
         <!-- sidebar -->
-        <aside>
+        <aside class="sidebar">
             <img src="./img/main.jpeg" alt="user foto">
             <!-- contacts -->
             <div>
