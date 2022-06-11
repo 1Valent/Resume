@@ -179,14 +179,25 @@ p {
 /* side-bar styles  */
 
 .sidebar {
-  background-color: #1e2939;
+  background-color: rgb(30, 41, 57);
   padding-top: 40px;
   width: 370px;
 }
 
 .user-foto {
+  display: block;
   width: 370px;
+  height: 470px;
   margin-bottom: 50px;
+  background: linear-gradient(
+      to top,
+      rgb(30, 41, 57),
+      rgba(30, 41, 57, 0.01) 56%,
+      rgba(30, 41, 57, 0.01) 57%,
+      rgb(30, 41, 57)
+    ),
+    url(../img/main.jpeg);
+  background-size: cover;
 }
 
 .sidebar-title {
